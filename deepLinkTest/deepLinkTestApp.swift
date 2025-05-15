@@ -11,7 +11,7 @@ import SwiftUI
 struct deepLinkTestApp: App {
     var body: some Scene {
         WindowGroup {
-            QRCodeView(url: "www.bettermile.com")
+            QRScannerView()
         }
     }
 }
